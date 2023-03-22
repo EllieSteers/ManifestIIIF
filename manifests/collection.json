@@ -1,0 +1,13 @@
+{
+  "id" : "https://EllieSteers.github.io/ManifestIIIF/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in EllieSteers/ManifestIIIF project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://EllieSteers.github.io/ManifestIIIF/manifests/manifest2.json",
+    "label" : "Book 1"
+  } ]
+}
