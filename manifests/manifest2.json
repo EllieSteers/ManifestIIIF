@@ -3,6 +3,11 @@
   "@id" : "https://EllieSteers.github.io/ManifestIIIF/manifests/manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "Book 1",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/128619871/5af9ab92a6adfab5c99151e4ece67b5a/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ {
     "label" : "Author",
     "value" : "Anne Author"
@@ -40,17 +45,17 @@
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
             "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056894955.0x00000d",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 6611,
-          "width" : 4756
+            "profile" : "http://iiif.io/api/image/2/level2.json",
+            "height" : 6611,
+            "width" : 4756
+          }
         },
         "on" : "http://66652119-6ec0-436f-94ed-af8e346bc370"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://EllieSteers.github.io/ManifestIIIF/manifests/manifest2.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     }, {
