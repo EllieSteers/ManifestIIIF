@@ -1,0 +1,125 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://EllieSteers.github.io/ManifestIIIF/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Book 1",
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "Anne Author"
+  }, {
+    "label" : "Published",
+    "value" : "York, circa 1800"
+  } ],
+  "description" : [ {
+    "@value" : "[This is a collection of photographs for manifest topic]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode",
+  "attribution" : "[Copyright Ellie Steers but released as Creative Commons]",
+  "sequences" : [ {
+    "@id" : "http://6dcc8c78-7f37-40df-ab60-1b669f236d4c",
+    "@type" : "sc:Sequence",
+    "label" : "Current Page Order",
+    "viewingDirection" : "left-to-right",
+    "viewingHint" : "paged",
+    "canvases" : [ {
+      "@id" : "http://66652119-6ec0-436f-94ed-af8e346bc370",
+      "@type" : "sc:Canvas",
+      "label" : "p. 1",
+      "height" : 6611,
+      "width" : 4756,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://28643c2a-b18b-4641-b0b1-d0842c25f6eb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056894955.0x00000d/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056894955.0x00000d",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 6611,
+          "width" : 4756
+        },
+        "on" : "http://66652119-6ec0-436f-94ed-af8e346bc370"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://00705a6d-abfb-43d6-a611-d3b5ef0d71c9",
+      "@type" : "sc:Canvas",
+      "label" : "p. 2",
+      "height" : 6677,
+      "width" : 4827,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9c5c4de7-47d5-49ce-bc95-cbb7db0cd041",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100108175884.0x000007/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100108175884.0x000007",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 6677,
+          "width" : 4827
+        },
+        "on" : "http://00705a6d-abfb-43d6-a611-d3b5ef0d71c9"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://028e6846-ebc3-47e9-b9b7-f7893a7eb777",
+      "@type" : "sc:Canvas",
+      "label" : "p. 3",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://59cdce36-f01e-4cb7-9eb3-eeef669cc08b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif-test.github.io/test2/images/IMG_8711/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif-test.github.io/test2/images/IMG_8711",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://028e6846-ebc3-47e9-b9b7-f7893a7eb777"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://66652119-6ec0-436f-94ed-af8e346bc37/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://66652119-6ec0-436f-94ed-af8e346bc37/range/1" ]
+  }, {
+    "@id" : "http://66652119-6ec0-436f-94ed-af8e346bc37/range/1",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://66652119-6ec0-436f-94ed-af8e346bc370" ]
+  } ]
+}
