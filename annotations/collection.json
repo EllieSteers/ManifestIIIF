@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://EllieSteers.github.io/ManifestIIIF/annotations/d6806eec29325d8d2fd7404fff690ba3.json" ],
+  "@id" : "https://EllieSteers.github.io/ManifestIIIF/annotations/collection.json",
+  "label" : "All annotations loaded in EllieSteers/ManifestIIIF project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
